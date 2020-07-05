@@ -1,0 +1,61 @@
+h1{
+	padding:30px;
+	
+	 color: navy;  
+    margin-left: 0px;
+	background-color:blue;
+	text-align:center;
+	font-size:30px; color:red;
+	margin-bottom:0px;
+}
+
+footer{
+	padding:8px;
+	background-color:blue;
+	text-align:center;
+	left: 0;
+    bottom: 0;
+    width: 100%;
+	margin-top:0px;
+	position:fixed;
+	margin-bottom:0px;
+}
+#block1{
+	
+	background-color:pink;
+	width:30%;
+	margin-left:20px;
+	text-align: center;
+
+}
+
+#block0 {
+    margin-left: 0px;
+    
+    padding: 0px;
+    overflow: hidden;
+	background-image:url("images.jpe");
+	
+}
+#block3 {
+    margin-left: 170px;
+    
+    padding: 1em;
+    overflow: hidden;
+	background-color :pink;
+	
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 300px;
+  background-color: green;
+  cursor: pointer;
+}
+

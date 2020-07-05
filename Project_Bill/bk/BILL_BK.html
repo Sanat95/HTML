@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title of the document</title>
+    <script src="jssss.js"></script>
+   
+</head>
+
+<body>
+<table>
+    <tr align="center">
+        <td><hr>
+            Hot Drinks<hr>
+        </td>
+        <td><hr>
+            Price<hr>
+        </td>
+        <td><hr>
+            Quantity<hr>
+        </td>
+    </tr>
+    <form name="calcuccino">
+        <tr>
+            <td>
+                Cappuccino
+            </td>
+            <td align="center">
+                $3.00
+            </td>
+            <td align="center">
+                <input type="number" id="quantityCappucino" name="quantityCappuccino" value="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Espresso
+            </td>
+            <td align="center">
+                $2.25
+            </td>
+            <td align="center">
+                <input type="number" id="quantityEspresso" name="quantityEspresso" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Latte
+            </td>
+            <td align="center">
+                $2.50
+            </td>
+            <td align="center">
+                <input type="number" id="quantityLatte" name="quantityLatte" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Iced
+            </td>
+            <td align="center">
+                $2.50
+            </td>
+            <td align="center">
+                <input type="number" id="quantityIced" name="quantityIced" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <hr>
+                <input type="checkbox" id="takeaway" name="takeaway">Takeaway?</option>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <button type="button" onclick="calculatePrice()">Submit Order</button>
+            </td>
+            <td>
+            </td>
+            <td>
+                <br>
+                <hr>
+                Order total: <b>$</b>
+                <input type="text"  name="orderTotal" id="orderTotal" Size=6 readonly>
+            </td>
+        </tr>
+        </form>
+</table>
+<script src="jssss.js"></script>
+</body>
+</html>
